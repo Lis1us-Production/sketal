@@ -65,7 +65,7 @@ class BotSettings(BaseSettings):
         # PeeweePlugin("host", "database's name", "user", "password", port, "PostgreSQL" or "MySQL"),
         AdminPlugin(prefixes=prefixes, admins=admins, setadmins=True),
         ChatMetaPlugin(),
-
+        # MLChatterPlugin(prefixes=prefixes), #плагин машинного обучения
         # DuelerPlugin(prefixes=prefixes),
         # AzinoPlugin("азино", prefixes=prefixes),
         # LockChatPlugin("сохранять", prefixes=prefixes),

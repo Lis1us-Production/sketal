@@ -23,7 +23,10 @@ aiomysql
 aiopg
 tinydb
 
-# Language pluings
+# Language plugins
 gTTS
 transliterate
 langdetect
+
+# Machine-Learning plugin
+apiai
